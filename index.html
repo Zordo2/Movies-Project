@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+         <div class="search d-flex justify-content-center mt-5"> 
+            <input id="getMovie"  type="text" class="mx-3" placeholder="get movies by word...">
+            <input  oninput="searchMovies(this.value)" id="searchBar" type="text" placeholder="search...">
+        </div>
+        <div class="side d-flex align-items-start" id="side">
+                    <div class="sideContent  h-100 d-flex justify-content-between flex-column p-1 text-center " id="sideContent">
+                    <div class="links ">
+                        <a href="#" id="nowPlaying">Now Playing</a>
+                        <a href="#" id="Popular">Popular</a>
+                        <a href="#" id="topRated">Top Rated</a>
+                        <a href="#" id="Trending">Trending</a>
+                        <a href="#" id="Upcoming">Upcoming</a>
+                        <a href="#contact">Contact Us</a>
+                    </div>
+                    <div class="footer ">
+                        <div class="icons text-white">
+                            <i class="fa fa-brands fa-facebook-f"></i>
+                            <i class="fa fa-brands fa-twitter"></i>
+                            <i class="fas fa-globe "></i>
+                        </div>
+                        <p>Copyright Â© 2019 All Rights Reserved.
+                        </p>
+                    </div>
+                    
+                
+         
+            
+        </div>
+        <div class="sideBar">
+            <div class="sideBarContent h-100 d-flex justify-content-between flex-column text-center p-3  ">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+
+                </div>
+                <div class="toggleMenu" id="toggle">
+                    <i class="fa fa-align-justify" id="icon"></i>
+                </div>
+                <div class="socialIcon">
+                    <i class="fas fa-globe d-block mb-2"></i>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+               
+            </div>
+        </div>
+        </div> -->
+    <section class="container">
+        <div class="row " id="rowData">
+            
+        </div>
+    </section>
+    <section class="container " id="contact">
+        <h2>
+            ContacUs...
+        </h2>
+        <div class="container my-5  text-center">
+                <input oninput="validateContactName();" id="contactName"  type="text" class="mx-3" placeholder="Enter Your Name...">
+                <!-- <div class="alert alert-danger" id="namealert" role="alert" style="display: block;    width: 35%;
+                ">
+                    Your Name is not valid
+                  </div> -->
+                <input type="text" placeholder="Enter Email...">
+                <input  type="text" class="mx-3" placeholder="Enter Phone...">
+                <input type="text" placeholder="Enter Age...">
+                <input  type="text" class="mx-3" placeholder="Enter Password...">
+                <input type="text" placeholder="EnterRePassword..." >
+                <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger d-block">Submit</button>            </div>
+           
+
+    </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 

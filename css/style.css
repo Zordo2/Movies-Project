@@ -1,0 +1,144 @@
+body
+{
+    background-color: #000000;
+}
+.sideBar
+{
+    background-color: #F8F6F6;
+ 
+    width: 20%;
+}
+.logo img
+{
+    height: 48px;
+}
+.sideBar i
+{
+    cursor: pointer;
+}
+.toggleMenu i
+{
+    font-size: 25px;
+}
+.links a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.side
+{
+    text-align: center;
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999;
+}
+.links a
+{
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.links a:hover
+{
+    color: #EF5527;
+}
+
+.footer i
+{
+    margin-right: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.footer i:hover
+{
+    color: #EF5527;
+} */
+   input
+{
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+ input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    color: #555;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+    font-size: 18px;
+    height: 50px;
+    padding: 10px 0px;
+    position: relative;
+    width: 35%;
+  
+    
+  } 
+   /* input:focus {
+    outline: none;    
+  }  */
+   input:focus
+  {
+    outline:none;
+    border-width: 2px;
+    border-color:  rgba(0, 0, 255,0.4)!important; 
+    box-shadow: inset 0px 0px 0px 1px  #4abee839!important  }
+   input::-webkit-input-placeholder {
+    color: #AAA;
+    text-align: center;
+  }
+  .movieCaption
+  {
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+     top: 100%;
+     left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .movie
+  {
+    position: relative;
+  }
+  .movie
+  {
+    overflow: hidden;
+  }
+  .movie:hover .movieCaption
+  {
+    top: 0;
+  }
+  .movieCaption p
+  {
+    font-weight: 300px;
+  }
+#contact
+{
+  margin-right: 5px !important;
+}
+.container input
+{
+  margin-bottom: 20px;
+}
+#submitBtn
+{
+  /* margin-left: 100px !important; */
+  position: relative;
+  left: 15%;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+
+ 
